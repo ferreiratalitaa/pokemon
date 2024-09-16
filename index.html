@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pokémon - TT</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://crmpiperun.com/wp-content/uploads/2019/11/logo-targettrust-1.png" alt="Logo"
+            id="logo">
+    </header>
+    <main>
+        <div class="search-box">
+            <input type="number" id="pokemon-number" placeholder="Digite um número...">
+            <button id="search-button" onclick="searchPokemon()">Buscar</button>
+
+        </div>
+        <div id="pokemon-info" class="pokemon-info">
+            <img id="pokemon-image" alt="Imagem">
+            <div id="pokemon-details">
+                <h2 id="pokemon-name"></h2>
+                <p id="pokemon-id"></p>
+                <p id="pokemon-type"></p>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
